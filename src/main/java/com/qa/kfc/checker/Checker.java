@@ -40,6 +40,7 @@ public class Checker {
 		Locator logoKfc= page.locator(kfcLogo);
 		boolean nitin= logoKfc.isVisible();
 		System.out.println(nitin);
+		System.out.println("Rajput");
 		
 		return false;
 		
